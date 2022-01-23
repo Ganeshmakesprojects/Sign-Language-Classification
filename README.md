@@ -2,6 +2,9 @@
 
 Overview : CNN on sign language data set with 24 labels.
 
+# Kaggle Dataset Link
+https://www.kaggle.com/datamunge/sign-language-mnist
+
 # Data Preprocessing
 A .csv file with 785 columns with 1st column as label and next 784 columns as 28x28 image data (grey scale 0-255) <br>
 Use data to create an np array with dimensions of (#num_instances, 28,28,1)<br>
